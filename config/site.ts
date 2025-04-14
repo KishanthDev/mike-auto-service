@@ -5,10 +5,9 @@ export const siteConfig = {
   description:
     "Full-service auto repair shop specializing in domestic and foreign vehicles since 1985",
   links: {
-    github: "https://github.com/heroui-inc/heroui",
-    twitter: "https://twitter.com/hero_ui",
+    github: "https://github.com/KishanthDev/mike-auto-service",
+    twitter: "https://twitter.com/",
     docs: "https://heroui.com",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
+    discord: "https://discord.gg/",
   },
 };

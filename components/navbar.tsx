@@ -7,9 +7,7 @@ import {
   NavbarItem,
   NavbarMenuItem,
 } from "@heroui/navbar";
-import { Kbd } from "@heroui/kbd";
 import { Link } from "@heroui/link";
-import { Input } from "@heroui/input";
 import NextLink from "next/link";
 
 import { siteConfig } from "@/config/site";
@@ -18,7 +16,6 @@ import {
   TwitterIcon,
   GithubIcon,
   DiscordIcon,
-  SearchIcon,
   Logo,
 } from "@/components/icons";
 
