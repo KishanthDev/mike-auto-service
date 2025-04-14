@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Mike's Auto Service",
+  name: "Mike Auto Service",
   description: "Full-service auto repair shop specializing in domestic and foreign vehicles since 1985",
   links: {
     github: "https://github.com/heroui-inc/heroui",
