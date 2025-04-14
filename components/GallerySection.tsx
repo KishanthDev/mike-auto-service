@@ -2,7 +2,10 @@
 
 import React from "react";
 import Image from "next/image";
-import images from "../data/gallery.json";
+import data from "../data/data.json"
+import { Data } from "@/types/data";
+
+const { images }  = data as Data
 
 export default function GallerySection() {
   return (

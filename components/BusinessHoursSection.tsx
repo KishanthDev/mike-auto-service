@@ -1,8 +1,10 @@
 "use client";
 
 import React from "react";
+import data from "../data/data.json";
+import type { Data } from "../types/data";
 
-import businessHours from "../data/businessHours.json";
+const { businessHours } = data as Data
 
 export default function BusinessHoursSection() {
   return (

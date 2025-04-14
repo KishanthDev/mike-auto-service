@@ -1,5 +1,8 @@
 import { Card, CardHeader } from "@heroui/card";
-import services from "../data/services.json";
+import { Data } from "@/types/data";
+import data from "../data/data.json"
+
+const { services } = data as Data
 
 export default function ServicesSection() {
   return (

@@ -1,7 +1,10 @@
 "use client";
 
 import React from "react";
-import certifications from "../data/certifications.json";
+import data from "../data/data.json"
+import type { Data } from "@/types/data";
+
+const { certifications } = data as Data
 
 export default function CertificationsSection() {
   return (

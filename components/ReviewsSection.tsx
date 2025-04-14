@@ -2,7 +2,10 @@
 
 import React from "react";
 import { Card, CardBody } from "@heroui/card";
-import reviews from "../data/reviews.json";
+import { Data } from "@/types/data";
+import data from "../data/data.json"
+
+const { reviews } = data as Data
 
 export default function ReviewsSection() {
   return (
