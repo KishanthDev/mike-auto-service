@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import certifications from "../data/certifications.json"
+import certifications from "../data/certifications.json";
 
 export default function CertificationsSection() {
   return (
@@ -11,7 +11,8 @@ export default function CertificationsSection() {
       </h2>
 
       <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 mt-2">
-        Our technicians are specially trained and certified to work on all major vehicle makes and models.
+        Our technicians are specially trained and certified to work on all major
+        vehicle makes and models.
       </p>
 
       <div className="flex flex-wrap gap-4 mt-4 md:mt-6 justify-center sm:justify-start">

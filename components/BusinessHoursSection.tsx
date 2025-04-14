@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import businessHours from "../data/businessHours.json"
+import businessHours from "../data/businessHours.json";
 
 export default function BusinessHoursSection() {
   return (
@@ -13,7 +13,10 @@ export default function BusinessHoursSection() {
 
       <div className="mt-4 md:mt-6 space-y-2 text-sm md:text-base text-gray-700 dark:text-gray-300">
         {businessHours.map((day, idx) => (
-          <div key={idx} className="flex justify-between border-b py-2 border-gray-200 dark:border-gray-600">
+          <div
+            key={idx}
+            className="flex justify-between border-b py-2 border-gray-200 dark:border-gray-600"
+          >
             <span>{day.day}</span>
             <span>{day.hours}</span>
           </div>

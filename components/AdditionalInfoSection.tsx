@@ -14,13 +14,15 @@ export default function AdditionalInfoSection() {
           <strong>Makes Serviced:</strong> All domestic and foreign vehicles
         </p>
         <p>
-          <strong>Warranty:</strong> 24-month / 24,000 mile warranty on parts and labor
+          <strong>Warranty:</strong> 24-month / 24,000 mile warranty on parts
+          and labor
         </p>
         <p>
           <strong>Shuttle Service:</strong> Available within 5 miles
         </p>
         <p>
-          <strong>Loaner Cars:</strong> Available for major repairs (reservation required)
+          <strong>Loaner Cars:</strong> Available for major repairs (reservation
+          required)
         </p>
         <p>
           <strong>Languages:</strong> English, Spanish
