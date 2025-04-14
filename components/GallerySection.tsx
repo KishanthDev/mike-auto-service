@@ -2,12 +2,13 @@
 
 import React from "react";
 import Image from "next/image";
-import data from "../data/data.json"
-import { Data } from "@/types/data";
+import { GalleryImage } from "@/types/data";
 
-const { images }  = data as Data
+interface GallerySectionProps{
+  images:GalleryImage[]
+}
 
-export default function GallerySection() {
+export default function GallerySection({images}:GallerySectionProps) {
   return (
     <section>
       <h2 className="text-2xl md:text-3xl font-bold border-b-2 border-red-600 pb-2 text-[#1a3c6e] dark:text-white">

@@ -1,10 +1,12 @@
 import { Card, CardHeader } from "@heroui/card";
-import { Data } from "@/types/data";
-import data from "../data/data.json"
 
-const { services } = data as Data
+import { Service } from "@/types/data";
 
-export default function ServicesSection() {
+interface ServicesSectionProps {
+  services: Service[];
+}
+
+export default function ServicesSection({ services }: ServicesSectionProps) {
   return (
     <section>
       <h2 className="text-2xl md:text-3xl font-bold border-b-2 border-red-600 pb-2 text-[#2765c3]">

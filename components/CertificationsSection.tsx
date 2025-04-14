@@ -1,12 +1,13 @@
 "use client";
 
 import React from "react";
-import data from "../data/data.json"
-import type { Data } from "@/types/data";
+import type { Certification } from "@/types/data";
 
-const { certifications } = data as Data
+interface CertificateSectionProps {
+  certifications: Certification[];
+}
 
-export default function CertificationsSection() {
+export default function CertificationsSection({certifications}:CertificateSectionProps) {
   return (
     <section>
       <h2 className="text-2xl md:text-3xl font-bold border-b-2 border-red-600 pb-2 text-[#1a3c6e] dark:text-white">

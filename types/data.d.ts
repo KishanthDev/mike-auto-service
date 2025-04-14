@@ -5,7 +5,7 @@
   
   export type Certification = string;
   
-  export type Image = string;
+  export type GalleryImage = string;
   
   export interface Review {
     author: string;
@@ -22,7 +22,7 @@
   export interface Data {
     businessHours: BusinessHour[];
     certifications: Certification[];
-    images: Image[];
+    images: GalleryImage[];
     reviews: Review[];
     services: Service[];
   }
