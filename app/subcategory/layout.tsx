@@ -24,8 +24,8 @@ export default function SidebarLayout({
 
   return (
     <div className="flex h-[calc(100vh-64px)]">
-      <aside className="w-64 h-full sticky top-0 overflow-y-auto p-4 border-r border-gray-300 dark:border-gray-700 bg-white dark:bg-black shadow-md no-scrollbar">
-        <h2 className="text-xl font-semibold mb-4">Categories</h2>
+      <aside className="w-48 md:w-64 h-full sticky top-0 overflow-y-auto p-4 border-r border-gray-300 dark:border-gray-700 bg-white dark:bg-black shadow-md no-scrollbar">
+        <h2 className="text-lg md:text-xl font-semibold mb-4">Categories</h2>
         <div className="space-y-2">
           {categoriesData.map((category, index) => {
             const categorySlug = slugify(category.category);
@@ -34,7 +34,7 @@ export default function SidebarLayout({
             return (
               <Link
                 key={index}
-                className={`block text-left w-full px-4 py-2 rounded-md ${
+                className={`block text-left w-full px-3 md:px-4 py-2 rounded-md text-sm md:text-base ${
                   isActive
                     ? "bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 font-medium"
                     : "hover:bg-gray-200 dark:hover:bg-gray-700"
