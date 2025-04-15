@@ -17,7 +17,7 @@ export default function SubcategoryPage({ category }: SubcategoryPageProps) {
   return (
     <div className="p-6 bg-white dark:bg-black text-gray-900 dark:text-white">
       <div className="flex items-center justify-between mb-6">
-        <h1 className="text-3xl font-bold">
+        <h1 className="text-xl font-bold">
           <Link href="/category" className="hover:underline text-blue-600 dark:text-blue-400">
             Category
           </Link>
@@ -37,7 +37,7 @@ export default function SubcategoryPage({ category }: SubcategoryPageProps) {
           />
         </div>
       </div>
-      <h1 className="font-bold mb-4">SubCategories</h1>
+      <h1 className="font-medium mb-4">SubCategories</h1>
       <ul
         className={`gap-6 ${viewMode === "grid"
           ? "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3"
