@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-
+import { Metadata } from "next";
 import categoriesData from "../../../data/category and subcategory.json";
 
 const createSlug = (text: string) => {
@@ -11,19 +11,22 @@ const createSlug = (text: string) => {
     .replace(/-+/g, "-");
 };
 
-export async function generateStaticParams() {
-  return categoriesData.map((category) => ({
-    slug: createSlug(category.category),
-  }));
+export async function generateStaticParams(): Promise<{ slug: string }[]> {
+  return Promise.resolve(
+    categoriesData.map((category) => ({
+      slug: createSlug(category.category),
+    }))
+  );
 }
 
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
-}) {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params; // Resolve the params Promise
   const foundCategory = categoriesData.find(
-    (cat) => createSlug(cat.category) === params.slug,
+    (cat) => createSlug(cat.category) === slug
   );
 
   return {
@@ -33,20 +36,13 @@ export async function generateMetadata({
   };
 }
 
-interface CategoryPageProps {
-  params: {
-    slug: string;
-  };
-}
-
-export default function CategoryPage({ params }: CategoryPageProps) {
+export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params; // Resolve the params Promise
   const foundCategory = categoriesData.find(
-    (cat) => createSlug(cat.category) === params.slug,
+    (cat) => createSlug(cat.category) === slug
   );
 
-  if (!foundCategory) {
-    notFound();
-  }
+  if (!foundCategory) notFound();
 
   return (
     <div className="min-h-screen p-6 bg-white dark:bg-black text-gray-900 dark:text-white">
