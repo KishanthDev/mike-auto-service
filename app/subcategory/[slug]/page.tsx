@@ -21,9 +21,9 @@ export async function generateStaticParams(): Promise<{ slug: string }[]> {
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
-  const { slug } = params;
+  const { slug } = await params;
   const foundCategory = categoriesData.find(
     (cat) => createSlug(cat.category) === slug
   );
@@ -35,9 +35,10 @@ export async function generateMetadata({
   };
 }
 
-export default function Page({ params }: { params: { slug: string } }) {
+export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
   const foundCategory = categoriesData.find(
-    (cat) => createSlug(cat.category) === params.slug
+    (cat) => createSlug(cat.category) === slug
   );
 
   if (!foundCategory) notFound();
