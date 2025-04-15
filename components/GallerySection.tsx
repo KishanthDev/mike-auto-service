@@ -2,13 +2,14 @@
 
 import React from "react";
 import Image from "next/image";
+
 import { GalleryImage } from "@/types/data";
 
-interface GallerySectionProps{
-  images:GalleryImage[]
+interface GallerySectionProps {
+  images: GalleryImage[];
 }
 
-export default function GallerySection({images}:GallerySectionProps) {
+export default function GallerySection({ images }: GallerySectionProps) {
   return (
     <section>
       <h2 className="text-2xl md:text-3xl font-bold border-b-2 border-red-600 pb-2 text-[#1a3c6e] dark:text-white">
@@ -21,11 +22,11 @@ export default function GallerySection({images}:GallerySectionProps) {
             className="aspect-square overflow-hidden rounded-lg bg-gray-100 dark:bg-gray-700 shadow-md"
           >
             <Image
-              src={src}
               alt={`Gallery ${idx + 1}`}
-              width={200}
-              height={200}
               className="w-full h-full object-cover transition-transform hover:scale-105"
+              height={200}
+              src={src}
+              width={200}
             />
           </div>
         ))}

@@ -21,11 +21,11 @@ export default function ContactSection() {
 
         <div className="w-full h-[200px] md:h-[250px] bg-gray-200 dark:bg-gray-700 rounded mt-3 overflow-hidden">
           <Image
-            src="/api/placeholder/400/250"
             alt="Map"
-            width={400}
-            height={250}
             className="w-full h-full object-cover"
+            height={250}
+            src="/api/placeholder/400/250"
+            width={400}
           />
         </div>
 
@@ -40,10 +40,10 @@ export default function ContactSection() {
         <p>
           <strong>Website:</strong>{" "}
           <a
-            href="https://www.mikesauto.com"
             className="text-blue-600 dark:text-blue-400 hover:underline"
-            target="_blank"
+            href="https://www.mikesauto.com"
             rel="noopener noreferrer"
+            target="_blank"
           >
             www.mikesauto.com
           </a>

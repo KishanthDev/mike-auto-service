@@ -9,7 +9,7 @@ import BusinessHoursSection from "../components/BusinessHoursSection";
 import AdditionalInfoSection from "../components/AdditionalInfoSection";
 import Footer from "../components/Footer";
 
-const { businessHours, certifications, images, reviews, services } = data
+const { businessHours, certifications, images, reviews, services } = data;
 
 export default function Home() {
   return (

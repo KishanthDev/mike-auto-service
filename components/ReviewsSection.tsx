@@ -2,13 +2,14 @@
 
 import React from "react";
 import { Card, CardBody } from "@heroui/card";
+
 import { Review } from "@/types/data";
 
-interface ReviewsSectionProps{
-  reviews:Review[]
+interface ReviewsSectionProps {
+  reviews: Review[];
 }
 
-export default function ReviewsSection({reviews}:ReviewsSectionProps) {
+export default function ReviewsSection({ reviews }: ReviewsSectionProps) {
   return (
     <section>
       <h2 className="text-2xl md:text-3xl font-bold border-b-2 border-red-600 pb-2 text-[#1a3c6e] dark:text-white">

@@ -1,12 +1,15 @@
 "use client";
 
-import React from "react";
 import type { BusinessHour } from "@/types/data";
+
+import React from "react";
 
 interface BusinessSectionProps {
   businessHours: BusinessHour[];
 }
-export default function BusinessHoursSection({businessHours}:BusinessSectionProps) {
+export default function BusinessHoursSection({
+  businessHours,
+}: BusinessSectionProps) {
   return (
     <section>
       <h2 className="text-2xl md:text-3xl font-bold border-b-2 border-red-600 pb-2 text-[#1a3c6e] dark:text-white">

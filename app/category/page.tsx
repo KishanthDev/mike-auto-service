@@ -1,16 +1,17 @@
-import Categories from '@/components/CategoryPage'
-import React from 'react'
-import SidebarLayout from '../subcategory/layout'
+import React from "react";
+
+import SidebarLayout from "../subcategory/layout";
+
+import Categories from "@/components/CategoryPage";
 
 const page = () => {
   return (
     <div>
-        <SidebarLayout>
-        <Categories/>
-        </SidebarLayout>
-       
+      <SidebarLayout>
+        <Categories />
+      </SidebarLayout>
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;

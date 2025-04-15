@@ -1,21 +1,26 @@
-"use client"
-import categoriesData from '../../data/category and subcategory.json';
-import Link from 'next/link';
-import React from 'react';
-import { usePathname } from 'next/navigation';
+"use client";
+import Link from "next/link";
+import React from "react";
+import { usePathname } from "next/navigation";
+
+import categoriesData from "../../data/category and subcategory.json";
 
 const slugify = (text: string) => {
   return text
     .toLowerCase()
-    .replace(/\s+/g, '-')
-    .replace(/&/g, 'and')
-    .replace(/[^a-z0-9-]/g, '')
-    .replace(/-+/g, '-');
+    .replace(/\s+/g, "-")
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9-]/g, "")
+    .replace(/-+/g, "-");
 };
 
-export default function SidebarLayout({ children }: { children: React.ReactNode }) {
+export default function SidebarLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   const pathname = usePathname();
-  const currentSlug = pathname.split('/').pop() || '';
+  const currentSlug = pathname.split("/").pop() || "";
 
   return (
     <div className="flex h-[calc(100vh-64px)]">
@@ -25,16 +30,16 @@ export default function SidebarLayout({ children }: { children: React.ReactNode 
           {categoriesData.map((category, index) => {
             const categorySlug = slugify(category.category);
             const isActive = currentSlug === categorySlug;
-            
+
             return (
               <Link
                 key={index}
-                href={`/subcategory/${categorySlug}`}
                 className={`block text-left w-full px-4 py-2 rounded-md ${
-                  isActive 
-                    ? 'bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 font-medium' 
-                    : 'hover:bg-gray-200 dark:hover:bg-gray-700'
+                  isActive
+                    ? "bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 font-medium"
+                    : "hover:bg-gray-200 dark:hover:bg-gray-700"
                 }`}
+                href={`/subcategory/${categorySlug}`}
               >
                 {category.category}
               </Link>
@@ -44,9 +49,7 @@ export default function SidebarLayout({ children }: { children: React.ReactNode 
       </aside>
 
       {/* Scrollable Main Content with hidden scrollbar */}
-      <main className="flex-1 overflow-y-auto no-scrollbar">
-        {children}
-      </main>
+      <main className="flex-1 overflow-y-auto no-scrollbar">{children}</main>
     </div>
   );
 }

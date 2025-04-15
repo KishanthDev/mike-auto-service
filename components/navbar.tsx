@@ -12,12 +12,7 @@ import NextLink from "next/link";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
-import {
-  TwitterIcon,
-  GithubIcon,
-  DiscordIcon,
-  Logo,
-} from "@/components/icons";
+import { TwitterIcon, GithubIcon, DiscordIcon, Logo } from "@/components/icons";
 
 export const Navbar = () => {
   return (
