@@ -34,7 +34,7 @@ export default function SubcategoryPage({ category }: SubcategoryPageProps) {
           />
         </div>
       </div>
-
+            <h1 className="font-bold mb-4">SubCategories</h1>
       <ul
         className={`gap-6 ${
           viewMode === "grid"

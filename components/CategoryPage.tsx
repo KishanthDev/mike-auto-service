@@ -20,7 +20,7 @@ const slugify = (text: string) => {
 
 const Home = () => {
   return (
-    <div className="flex min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-100">
+    <div className="flex min-h-screen bg-gray-100 dark:bg-black text-gray-800 dark:text-gray-100">
       <main className="flex-1 p-6 overflow-y-auto scrollbar-hide">
         <div className="mb-6">
           <div className="max-w-md mx-auto">
@@ -46,7 +46,7 @@ const Home = () => {
             return (
               <Link
                 key={index}
-                className="block bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 p-4 rounded-md hover:shadow-md transition"
+                className="block bg-white dark:bg-black border border-gray-300 dark:border-gray-700 p-4 rounded-md hover:shadow-md transition"
                 href={`/subcategory/${slugify(category.category)}`}
               >
                 <h3 className="text-lg font-bold mb-2">{category.category}</h3>

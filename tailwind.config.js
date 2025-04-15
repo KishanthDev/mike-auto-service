@@ -16,7 +16,20 @@ const config = {
     },
   },
   darkMode: "class",
-  plugins: [heroui()],
+  plugins: [function ({ addUtilities }) {
+    addUtilities({
+      ".no-scrollbar": {
+        /* Hide scrollbar for WebKit */
+        "-ms-overflow-style": "none", /* IE and Edge */
+        "scrollbar-width": "none", /* Firefox */
+      },
+      ".no-scrollbar::-webkit-scrollbar": {
+        display: "none",
+      },
+    });
+  },
+  heroui()
+],
 };
 
 module.exports = config;
