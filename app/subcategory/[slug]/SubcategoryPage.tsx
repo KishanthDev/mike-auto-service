@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { GridIcon, ListIcon } from "lucide-react";
+import Link from "next/link";
 
 interface SubcategoryPageProps {
   category: {
@@ -17,30 +18,31 @@ export default function SubcategoryPage({ category }: SubcategoryPageProps) {
     <div className="p-6 bg-white dark:bg-black text-gray-900 dark:text-white">
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-3xl font-bold">
-          Category: {category.category}
+          <Link href="/category" className="hover:underline text-blue-600 dark:text-blue-400">
+            Category
+          </Link>
+          <span className="mx-2 text-gray-400">›</span>
+          <span>{category.category}</span>
         </h1>
         <div className="flex gap-2">
           <GridIcon
-            className={`cursor-pointer ${
-              viewMode === "grid" ? "text-blue-500" : "text-gray-500"
-            }`}
+            className={`cursor-pointer ${viewMode === "grid" ? "text-blue-500" : "text-gray-500"
+              }`}
             onClick={() => setViewMode("grid")}
           />
           <ListIcon
-            className={`cursor-pointer ${
-              viewMode === "list" ? "text-blue-500" : "text-gray-500"
-            }`}
+            className={`cursor-pointer ${viewMode === "list" ? "text-blue-500" : "text-gray-500"
+              }`}
             onClick={() => setViewMode("list")}
           />
         </div>
       </div>
-            <h1 className="font-bold mb-4">SubCategories</h1>
+      <h1 className="font-bold mb-4">SubCategories</h1>
       <ul
-        className={`gap-6 ${
-          viewMode === "grid"
-            ? "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3"
-            : "flex flex-col"
-        }`}
+        className={`gap-6 ${viewMode === "grid"
+          ? "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3"
+          : "flex flex-col"
+          }`}
       >
         {category.subcategories.map((sub, idx) => (
           <li
