@@ -38,7 +38,7 @@ export default function SidebarLayout({
                         return (
                             <Link
                                 key={index}
-                                className={`block text-left w-full px-3 md:px-4 py-2 rounded-md text-sm md:text-base ${isActive
+                                className={`block text-left w-full px-3 md:px-4 py-2 rounded-md text-base md:text-base ${isActive
                                         ? "bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 font-medium"
                                         : "hover:bg-gray-200 dark:hover:bg-gray-700"
                                     }`}
