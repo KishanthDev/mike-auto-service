@@ -18,9 +18,9 @@ const slugify = (text: string) => {
 };
 
 const Home = () => {
-  return (
-    <div className="flex min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-100">
-      <main className="flex-1 p-6 overflow-y-auto">
+    return (
+      <div className="flex min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-100">
+        <main className="flex-1 p-6 overflow-y-auto scrollbar-hide">
         <div className="mb-6">
           <div className="max-w-md mx-auto">
             <input

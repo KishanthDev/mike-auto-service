@@ -39,7 +39,7 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
   }
 
   return (
-    <div className="min-h-screen p-6 bg-white dark:bg-black text-gray-900 dark:text-white">
+    <div className="p-6 bg-white dark:bg-black text-gray-900 dark:text-white">
       <h1 className="text-3xl font-bold mb-6">Category: {foundCategory.category}</h1>
 
       <h2 className="text-xl font-semibold mb-4">
