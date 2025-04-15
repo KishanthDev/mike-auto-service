@@ -1,5 +1,3 @@
-// pages/index.tsx
-
 import Link from 'next/link';
 import categoriesData from '../data/category and subcategory.json';
 
@@ -10,16 +8,19 @@ interface CategoryType {
 
 const MAX_VISIBLE_SUBCATS = 4;
 
-// Helper to slugify category names for clean URLs
-const slugify = (text: string) =>
-  text.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]+/g, '');
+const slugify = (text: string) => {
+  return text
+    .toLowerCase()
+    .replace(/\s+/g, '-')
+    .replace(/&/g, 'and')
+    .replace(/[^a-z0-9-]/g, '')
+    .replace(/-+/g, '-');
+};
 
 const Home = () => {
   return (
     <div className="flex min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-100">
-      {/* Main Content */}
       <main className="flex-1 p-6 overflow-y-auto">
-        {/* Search Bar */}
         <div className="mb-6">
           <div className="max-w-md mx-auto">
             <input
@@ -32,7 +33,6 @@ const Home = () => {
 
         <h2 className="text-2xl font-semibold mb-6">Explore Categories</h2>
 
-        {/* Category Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {categoriesData.map((category: CategoryType, index: number) => {
             const visibleSubcats = category.subcategories.slice(0, MAX_VISIBLE_SUBCATS);

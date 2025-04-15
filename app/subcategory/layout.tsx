@@ -1,9 +1,16 @@
 import categoriesData from '../../data/category and subcategory.json';
 import Link from 'next/link';
 
-const slugify = (text: string) =>
-  text.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]+/g, '');
+const slugify = (text: string) => {
+    return text
+      .toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/&/g, 'and')
+      .replace(/[^a-z0-9-]/g, '')
+      .replace(/-+/g, '-');
+  };
 
+  
 export default function SidebarLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex h-screen overflow-hidden bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-100">
