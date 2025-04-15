@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import categoriesData from "../../../data/category and subcategory.json";
+import SubcategoryPage from "./SubcategoryPage";
 
 const createSlug = (text: string) => {
   return text
@@ -12,19 +13,17 @@ const createSlug = (text: string) => {
 };
 
 export async function generateStaticParams(): Promise<{ slug: string }[]> {
-  return Promise.resolve(
-    categoriesData.map((category) => ({
-      slug: createSlug(category.category),
-    }))
-  );
+  return categoriesData.map((category) => ({
+    slug: createSlug(category.category),
+  }));
 }
 
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: { slug: string };
 }): Promise<Metadata> {
-  const { slug } = await params; // Resolve the params Promise
+  const { slug } = params;
   const foundCategory = categoriesData.find(
     (cat) => createSlug(cat.category) === slug
   );
@@ -36,34 +35,12 @@ export async function generateMetadata({
   };
 }
 
-export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params; // Resolve the params Promise
+export default function Page({ params }: { params: { slug: string } }) {
   const foundCategory = categoriesData.find(
-    (cat) => createSlug(cat.category) === slug
+    (cat) => createSlug(cat.category) === params.slug
   );
 
   if (!foundCategory) notFound();
 
-  return (
-    <div className="min-h-screen p-6 bg-white dark:bg-black text-gray-900 dark:text-white">
-      <h1 className="text-3xl font-bold mb-6">
-        Category: {foundCategory.category}
-      </h1>
-      <h2 className="text-xl font-semibold mb-4">{foundCategory.category}</h2>
-
-      <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {foundCategory.subcategories.map((sub, idx) => (
-          <li
-            key={idx}
-            className="border border-gray-300 dark:border-gray-700 p-6 rounded-lg bg-gray-50 dark:bg-gray-800 hover:shadow-md transition-all"
-          >
-            <div className="font-bold">{sub}</div>
-            <div className="mt-3 text-sm text-gray-500 dark:text-gray-400">
-              Browse local {sub} businesses
-            </div>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
+  return <SubcategoryPage category={foundCategory} />;
 }
