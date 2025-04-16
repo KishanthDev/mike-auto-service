@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import categoriesData from "../../../../data/detailed_categories_with_subcategories.json";
 import { slugify } from "@/app/lib/slugify";
-import { Category,Subcategory } from "@/types/category";
+import { Category, Subcategory } from "@/types/category";
 import Breadcrumb from "@/components/breadcrumb/Breadcrumb";
 
 export async function generateStaticParams() {
@@ -28,10 +28,10 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { categorySlug, subcategorySlug } = await params;
   const category = categoriesData.find(
-    (cat: Category) => slugify(cat.category) === categorySlug
+    (cat: Category) => slugify(cat.category) === categorySlug,
   );
   const subcategory = category?.subcategories.find(
-    (sub: Subcategory) => slugify(sub.name) === subcategorySlug
+    (sub: Subcategory) => slugify(sub.name) === subcategorySlug,
   );
 
   return {
@@ -49,10 +49,10 @@ export default async function SubcategoryBusinessesPage({
   const { categorySlug, subcategorySlug } = await params;
 
   const category = categoriesData.find(
-    (cat: Category) => slugify(cat.category) === categorySlug
+    (cat: Category) => slugify(cat.category) === categorySlug,
   );
   const subcategory = category?.subcategories.find(
-    (sub: Subcategory) => slugify(sub.name) === subcategorySlug
+    (sub: Subcategory) => slugify(sub.name) === subcategorySlug,
   );
 
   if (!category || !subcategory) {

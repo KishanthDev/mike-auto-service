@@ -54,15 +54,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/car_repair_001",
@@ -133,15 +126,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/car_sales_001",
@@ -212,15 +198,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/tires_001",
@@ -291,15 +270,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/auto_parts_001",
@@ -375,15 +347,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/hospitals_001",
@@ -454,15 +419,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/clinics_001",
@@ -533,15 +491,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/dentists_001",
@@ -612,15 +563,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/pharmacies_001",
@@ -691,15 +635,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/physiotherapy_centres_001",
@@ -770,15 +707,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/veterinary_clinics_001",
@@ -854,15 +784,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/schools_(primary,_secondary)_001",
@@ -933,15 +856,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/colleges_&_universities_001",
@@ -1012,15 +928,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/tuition_services_001",
@@ -1091,15 +1000,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/educational_consultants_001",
@@ -1175,15 +1077,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/fast_food_001",
@@ -1254,15 +1149,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/fine_dining_001",
@@ -1333,15 +1221,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/caf\u00e9s_001",
@@ -1412,15 +1293,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/bakeries_001",
@@ -1491,15 +1365,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/food_delivery_services_001",
@@ -1575,15 +1442,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/clothing_stores_001",
@@ -1654,15 +1514,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/electronics_stores_001",
@@ -1733,15 +1586,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/jewellery_showrooms_001",
@@ -1812,15 +1658,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/grocery_stores_001",
@@ -1891,15 +1730,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/department_stores_001",
@@ -1970,15 +1802,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/furniture_showrooms_001",
@@ -2049,15 +1874,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/pest_control_001",
@@ -2133,15 +1951,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/chartered_accountants_001",
@@ -2212,15 +2023,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/lawyers_001",
@@ -2291,15 +2095,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/marketing_agencies_001",
@@ -2370,15 +2167,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/business_consultants_001",
@@ -2454,15 +2244,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/interior_designers_001",
@@ -2533,15 +2316,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/carpenters_001",
@@ -2612,15 +2388,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/plumbers_001",
@@ -2691,15 +2460,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/electricians_001",
@@ -2770,15 +2532,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/cleaners_001",
@@ -2849,15 +2604,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/landscapers_001",
@@ -2928,15 +2676,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/home_renovation_001",
@@ -3012,15 +2753,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/airlines_001",
@@ -3091,15 +2825,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/hotels_001",
@@ -3170,15 +2897,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/car_rentals_001",
@@ -3249,15 +2969,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/travel_agencies_001",
@@ -3328,15 +3041,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/public_transport_001",
@@ -3412,15 +3118,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/builders_and_developers_001",
@@ -3491,15 +3190,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/civil_contractors_001",
@@ -3570,15 +3262,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/real_estate_agents_001",
@@ -3649,15 +3334,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/property_management_001",
@@ -3733,15 +3411,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/banks_001",
@@ -3812,15 +3483,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/loan_agencies_001",
@@ -3891,15 +3555,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/insurance_agencies_001",
@@ -3970,15 +3627,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/investment_services_001",
@@ -4049,15 +3699,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/credit_unions_001",
@@ -4133,15 +3776,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/local_government_offices_001",
@@ -4212,15 +3848,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/community_centers_001",
@@ -4291,15 +3920,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/libraries_001",
@@ -4370,15 +3992,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/post_offices_001",
@@ -4454,15 +4069,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/movie_theaters_001",
@@ -4533,15 +4141,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/music_stores_001",
@@ -4612,15 +4213,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/event_management_001",
@@ -4691,15 +4285,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/convention_halls_001",
@@ -4770,15 +4357,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/media_production_001",
@@ -4854,15 +4434,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/gyms_001",
@@ -4933,15 +4506,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/sports_leagues_001",
@@ -5012,15 +4578,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/parks_001",
@@ -5091,15 +4650,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/recreation_centers_001",
@@ -5170,15 +4722,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/sports_equipment_stores_001",
@@ -5254,15 +4799,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/pet_stores_001",
@@ -5333,15 +4871,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/veterinarians_001",
@@ -5412,15 +4943,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/pet_grooming_001",
@@ -5491,15 +5015,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/animal_shelters_001",
@@ -5570,15 +5087,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/pet_training_001",
@@ -5654,15 +5164,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/internet_service_providers_001",
@@ -5733,15 +5236,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/computer_sales_and_repair_001",
@@ -5812,15 +5308,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/mobile_sales_and_repair_001",
@@ -5891,15 +5380,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/web_design_001",
@@ -5970,15 +5452,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/software_solutions_001",
@@ -6054,15 +5529,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/private_security_services_001",
@@ -6133,15 +5601,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/fire_departments_001",
@@ -6212,15 +5673,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/police_stations_001",
@@ -6291,15 +5745,8 @@
                 "price": "$75+"
               }
             ],
-            "gallery": [
-              "/images/sample1.jpg",
-              "/images/sample2.jpg"
-            ],
-            "highlights": [
-              "Top Rated",
-              "Affordable",
-              "Certified Staff"
-            ],
+            "gallery": ["/images/sample1.jpg", "/images/sample2.jpg"],
+            "highlights": ["Top Rated", "Affordable", "Certified Staff"],
             "cta": {
               "call": "+1-000-000-0000",
               "bookUrl": "/book/safety_equipment_suppliers_001",

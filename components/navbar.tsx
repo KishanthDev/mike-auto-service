@@ -1,19 +1,19 @@
 import {
   Navbar as HeroUINavbar,
-  NavbarContent,
-  NavbarMenu,
-  NavbarMenuToggle,
   NavbarBrand,
+  NavbarContent,
   NavbarItem,
+  NavbarMenu,
   NavbarMenuItem,
+  NavbarMenuToggle,
 } from "@heroui/navbar";
 import { Link } from "@heroui/link";
 import NextLink from "next/link";
-
 import { LayoutList } from "lucide-react";
+
 import { siteConfig } from "@/config/site";
-import { ThemeSwitch } from "@/components/theme-switch";
 import { GithubIcon, DiscordIcon, Logo } from "@/components/icons";
+import { ThemeSwitch } from "@/components/theme-switch";
 
 export const Navbar = () => {
   return (

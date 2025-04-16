@@ -1,11 +1,15 @@
-import { notFound } from "next/navigation";
 import { Metadata } from "next";
-import categoriesData from "../../../data/detailed_categories_with_subcategories.json";
-import SubcategoryPage from "./SubcategoryPage";
-import { slugify } from "../../lib/slugify";
+import { notFound } from "next/navigation";
+
 import { Category } from "@/types/category";
 
-export async function generateStaticParams(): Promise<{ categorySlug: string }[]> {
+import categoriesData from "../../../data/detailed_categories_with_subcategories.json";
+import { slugify } from "../../lib/slugify";
+import SubcategoryPage from "./SubcategoryPage";
+
+export async function generateStaticParams(): Promise<
+  { categorySlug: string }[]
+> {
   return categoriesData.map((category: Category) => ({
     categorySlug: slugify(category.category),
   }));
@@ -18,7 +22,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { categorySlug } = await params;
   const foundCategory = categoriesData.find(
-    (cat: Category) => slugify(cat.category) === categorySlug
+    (cat: Category) => slugify(cat.category) === categorySlug,
   );
 
   return {
@@ -35,7 +39,7 @@ export default async function Page({
 }) {
   const { categorySlug } = await params;
   const foundCategory = categoriesData.find(
-    (cat: Category) => slugify(cat.category) === categorySlug
+    (cat: Category) => slugify(cat.category) === categorySlug,
   );
 
   if (!foundCategory) notFound();

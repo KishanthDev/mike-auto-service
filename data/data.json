@@ -1,49 +1,48 @@
 {
-    "businessHours": [
-      { "day": "Monday - Friday", "hours": "7:30 AM - 6:00 PM" },
-      { "day": "Saturday", "hours": "8:00 AM - 4:00 PM" },
-      { "day": "Sunday", "hours": "Closed" }
-    ],
-    "certifications": ["AUDI", "BMW", "Honda", "Toyota", "Ford"],
-    "images": [
-      "https://via.placeholder.com/150/92c952",
-      "https://via.placeholder.com/150/92c952",
-      "https://via.placeholder.com/150/92c952",
-      "https://via.placeholder.com/150/92c952"
-    ],
-    "reviews": [
-      {
-        "author": "Sarah J.",
-        "rating": 5,
-        "content": "Mike's team fixed my Honda's transmission issue quickly and for much less than the dealership quoted. Very honest and transparent about costs."
-      },
-      {
-        "author": "David T.",
-        "rating": 5,
-        "content": "I've been coming here for 5 years and have always had excellent service. They explain everything clearly and never push unnecessary repairs."
-      }
-    ],
-    "services": [
-      {
-        "title": "Brake Service",
-        "description": "Complete brake system inspection, repair and replacement. Lifetime warranty on most brake pads.",
-        "price": "Starting at $89.99"
-      },
-      {
-        "title": "Engine Repair",
-        "description": "Diagnostic and repair services for all engine types. Factory-trained technicians.",
-        "price": "Diagnosis: $89.99"
-      },
-      {
-        "title": "Transmission Service",
-        "description": "Transmission fluid change, repair and rebuilding services with 24-month warranty.",
-        "price": "Fluid change: $149.99"
-      },
-      {
-        "title": "Electrical Systems",
-        "description": "Computer diagnostics, battery service, alternator replacement and more.",
-        "price": "Starting at $69.99"
-      }
-    ]
-  }
-  
+  "businessHours": [
+    { "day": "Monday - Friday", "hours": "7:30 AM - 6:00 PM" },
+    { "day": "Saturday", "hours": "8:00 AM - 4:00 PM" },
+    { "day": "Sunday", "hours": "Closed" }
+  ],
+  "certifications": ["AUDI", "BMW", "Honda", "Toyota", "Ford"],
+  "images": [
+    "https://via.placeholder.com/150/92c952",
+    "https://via.placeholder.com/150/92c952",
+    "https://via.placeholder.com/150/92c952",
+    "https://via.placeholder.com/150/92c952"
+  ],
+  "reviews": [
+    {
+      "author": "Sarah J.",
+      "rating": 5,
+      "content": "Mike's team fixed my Honda's transmission issue quickly and for much less than the dealership quoted. Very honest and transparent about costs."
+    },
+    {
+      "author": "David T.",
+      "rating": 5,
+      "content": "I've been coming here for 5 years and have always had excellent service. They explain everything clearly and never push unnecessary repairs."
+    }
+  ],
+  "services": [
+    {
+      "title": "Brake Service",
+      "description": "Complete brake system inspection, repair and replacement. Lifetime warranty on most brake pads.",
+      "price": "Starting at $89.99"
+    },
+    {
+      "title": "Engine Repair",
+      "description": "Diagnostic and repair services for all engine types. Factory-trained technicians.",
+      "price": "Diagnosis: $89.99"
+    },
+    {
+      "title": "Transmission Service",
+      "description": "Transmission fluid change, repair and rebuilding services with 24-month warranty.",
+      "price": "Fluid change: $149.99"
+    },
+    {
+      "title": "Electrical Systems",
+      "description": "Computer diagnostics, battery service, alternator replacement and more.",
+      "price": "Starting at $69.99"
+    }
+  ]
+}

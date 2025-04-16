@@ -15,13 +15,12 @@ interface CategoryType {
 
 const MAX_VISIBLE_SUBCATS = 4;
 
-
 const Home = () => {
   return (
     <div className="flex min-h-screen bg-gray-100 dark:bg-black text-gray-800 dark:text-gray-100">
       <main className="flex-1 p-6 overflow-y-auto scrollbar-hide">
         <div className="mb-6">
-          <Breadcrumb/>
+          <Breadcrumb />
           <div className="max-w-md mx-auto">
             <input
               className="w-full p-2 border rounded-md shadow-md dark:bg-gray-800 dark:border-gray-600"
@@ -37,7 +36,7 @@ const Home = () => {
           {categoriesData.map((category: CategoryType, index: number) => {
             const visibleSubcats = category.subcategories.slice(
               0,
-              MAX_VISIBLE_SUBCATS
+              MAX_VISIBLE_SUBCATS,
             );
             const remainingCount =
               category.subcategories.length - visibleSubcats.length;
