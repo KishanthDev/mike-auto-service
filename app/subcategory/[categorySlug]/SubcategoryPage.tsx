@@ -4,17 +4,11 @@ import { useState } from "react";
 import { GridIcon, ListIcon } from "lucide-react";
 import Link from "next/link";
 import { slugify } from "../../lib/slugify";
-
-interface Subcategory {
-  name: string;
-  businesses: any[];
-}
+import { Category } from "@/types/category";
+import Breadcrumb from "../../../components/breadcrumb/Breadcrumb";
 
 interface SubcategoryPageProps {
-  category: {
-    category: string;
-    subcategories: Subcategory[];
-  };
+  category: Category;
 }
 
 export default function SubcategoryPage({ category }: SubcategoryPageProps) {
@@ -23,17 +17,9 @@ export default function SubcategoryPage({ category }: SubcategoryPageProps) {
 
   return (
     <div className="p-6 bg-white dark:bg-black text-gray-900 dark:text-white">
+      <Breadcrumb category={category} />
       <div className="flex items-center justify-between mb-6">
-        <h1 className="text-xl font-bold">
-          <Link
-            href="/category"
-            className="hover:underline text-blue-600 dark:text-blue-400"
-          >
-            Category
-          </Link>
-          <span className="mx-2 text-gray-400">›</span>
-          <span>{category.category}</span>
-        </h1>
+        <h1 className="text-xl font-bold">{category.category}</h1>
         <div className="flex gap-2">
           <GridIcon
             className={`cursor-pointer ${
@@ -49,7 +35,7 @@ export default function SubcategoryPage({ category }: SubcategoryPageProps) {
           />
         </div>
       </div>
-      <h1 className="font-medium mb-4">Subcategories</h1>
+      <h2 className="font-medium mb-4">Subcategories</h2>
       <ul
         className={`gap-6 ${
           viewMode === "grid"

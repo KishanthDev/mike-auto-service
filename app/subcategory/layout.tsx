@@ -5,16 +5,7 @@ import { usePathname } from "next/navigation";
 import { ChevronDownIcon, ChevronRightIcon } from "lucide-react";
 import categoriesData from "../../data/detailed_categories_with_subcategories.json";
 import { slugify } from "../lib/slugify";
-
-interface Subcategory {
-  name: string;
-  businesses: any[];
-}
-
-interface Category {
-  category: string;
-  subcategories: Subcategory[];
-}
+import { Category } from "@/types/category";
 
 export default function SidebarLayout({
   children,

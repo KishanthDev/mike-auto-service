@@ -1,6 +1,7 @@
 import Link from "next/link";
-
+import { slugify } from "@/app/lib/slugify";
 import categoriesData from "../data/detailed_categories_with_subcategories.json";
+import Breadcrumb from "./breadcrumb/Breadcrumb";
 
 interface Subcategory {
   name: string;
@@ -14,22 +15,13 @@ interface CategoryType {
 
 const MAX_VISIBLE_SUBCATS = 4;
 
-const slugify = (text: string) => {
-  return text
-    .toLowerCase()
-    .replace(/[^\w\s-]/g, "")
-    .replace(/\s+/g, "-")
-    .replace(/&/g, "and")
-    .replace(/[^a-z0-9-]/g, "")
-    .replace(/-+/g, "-")
-    .replace(/^-+|-+$/g, "");
-};
 
 const Home = () => {
   return (
     <div className="flex min-h-screen bg-gray-100 dark:bg-black text-gray-800 dark:text-gray-100">
       <main className="flex-1 p-6 overflow-y-auto scrollbar-hide">
         <div className="mb-6">
+          <Breadcrumb/>
           <div className="max-w-md mx-auto">
             <input
               className="w-full p-2 border rounded-md shadow-md dark:bg-gray-800 dark:border-gray-600"

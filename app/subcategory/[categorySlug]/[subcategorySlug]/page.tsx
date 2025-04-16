@@ -1,39 +1,9 @@
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import categoriesData from "../../../../data/detailed_categories_with_subcategories.json";
-import { slugify } from "../../../lib/slugify";
-
-interface Subcategory {
-  name: string;
-  businesses: {
-    id: string;
-    businessName: string;
-    description: string;
-    location: {
-      address: string;
-      city: string;
-      state: string;
-      postalCode: string;
-      latitude: number;
-      longitude: number;
-    };
-    contact: {
-      phone: string;
-      email: string;
-      website: string;
-    };
-    ratings: number;
-    highlights: string[];
-    cta: {
-      bookUrl: string;
-    };
-  }[];
-}
-
-interface Category {
-  category: string;
-  subcategories: Subcategory[];
-}
+import { slugify } from "@/app/lib/slugify";
+import { Category,Subcategory } from "@/types/category";
+import Breadcrumb from "@/components/breadcrumb/Breadcrumb";
 
 export async function generateStaticParams() {
   const params: { categorySlug: string; subcategorySlug: string }[] = [];
@@ -91,6 +61,7 @@ export default async function SubcategoryBusinessesPage({
 
   return (
     <div className="p-6 bg-gray-100 dark:bg-black min-h-screen">
+      <Breadcrumb category={category} subcategory={subcategory} />
       <h1 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">
         {subcategory.name} Businesses in {category.category}
       </h1>

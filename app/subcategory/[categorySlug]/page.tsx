@@ -3,16 +3,7 @@ import { Metadata } from "next";
 import categoriesData from "../../../data/detailed_categories_with_subcategories.json";
 import SubcategoryPage from "./SubcategoryPage";
 import { slugify } from "../../lib/slugify";
-
-interface Subcategory {
-  name: string;
-  businesses: any[];
-}
-
-interface Category {
-  category: string;
-  subcategories: Subcategory[];
-}
+import { Category } from "@/types/category";
 
 export async function generateStaticParams(): Promise<{ categorySlug: string }[]> {
   return categoriesData.map((category: Category) => ({

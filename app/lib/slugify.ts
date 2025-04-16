@@ -1,5 +1,6 @@
 export const slugify = (text: string) => {
-    return text
+    const result = text
+      .replace(/[\u{1F000}-\u{1FFFF}]/gu, "")
       .toLowerCase()
       .normalize("NFD")
       .replace(/[\u0300-\u036f]/g, "")
@@ -9,4 +10,5 @@ export const slugify = (text: string) => {
       .replace(/[^a-z0-9-]/g, "")
       .replace(/-+/g, "-")
       .replace(/^-+|-+$/g, "");
+    return result;
   };
