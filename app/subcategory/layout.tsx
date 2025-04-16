@@ -3,8 +3,8 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { usePathname } from "next/navigation";
 import { ChevronDownIcon, ChevronRightIcon } from "lucide-react";
-
 import categoriesData from "../../data/detailed_categories_with_subcategories.json";
+import { slugify } from "../lib/slugify";
 
 interface Subcategory {
   name: string;
@@ -16,22 +16,12 @@ interface Category {
   subcategories: Subcategory[];
 }
 
-const slugify = (text: string) => {
-  return text
-    .toLowerCase()
-    .replace(/\s+/g, "-")
-    .replace(/&/g, "and")
-    .replace(/[^a-z0-9-]/g, "")
-    .replace(/-+/g, "-");
-};
-
 export default function SidebarLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   const pathname = usePathname();
-  const currentSlug = pathname.split("/").pop() || "";
   const [openCategory, setOpenCategory] = useState<string | null>(null);
 
   const toggleCategory = (categorySlug: string) => {
@@ -49,7 +39,11 @@ export default function SidebarLayout({
         <div className="space-y-1 px-4 pb-4">
           {categoriesData.map((category: Category, index: number) => {
             const categorySlug = slugify(category.category);
-            const isActive = currentSlug === categorySlug;
+            const isActive =
+              pathname === `/subcategory/${categorySlug}` ||
+              category.subcategories.some((sub) =>
+                pathname.includes(`/subcategory/${categorySlug}/${slugify(sub.name)}`)
+              );
             const isOpen = openCategory === categorySlug;
 
             return (
@@ -65,12 +59,12 @@ export default function SidebarLayout({
                   <Link
                     href={`/subcategory/${categorySlug}`}
                     className="flex-1"
-                    onClick={(e) => e.stopPropagation()} // Prevent Link from toggling dropdown
+                    onClick={(e) => e.stopPropagation()}
                   >
                     {category.category}
                   </Link>
                   {category.subcategories.length > 0 && (
-                    <span>
+                    <span className="transition-transform duration-200 ease-in-out">
                       {isOpen ? (
                         <ChevronDownIcon className="w-4 h-4" />
                       ) : (
@@ -80,10 +74,15 @@ export default function SidebarLayout({
                   )}
                 </div>
                 {isOpen && category.subcategories.length > 0 && (
-                  <ul className="ml-4 mt-1 space-y-1">
+                  <ul
+                    className="ml-4 mt-1 space-y-1 animate-slideDown"
+                    style={{ transformOrigin: "top" }}
+                  >
                     {category.subcategories.map((subcategory, subIndex) => {
                       const subcategorySlug = slugify(subcategory.name);
-                      const isSubActive = pathname.includes(subcategorySlug);
+                      const isSubActive = pathname.includes(
+                        `/subcategory/${categorySlug}/${subcategorySlug}`
+                      );
 
                       return (
                         <li key={subIndex}>

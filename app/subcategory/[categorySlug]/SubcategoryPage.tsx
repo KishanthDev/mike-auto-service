@@ -3,10 +3,11 @@
 import { useState } from "react";
 import { GridIcon, ListIcon } from "lucide-react";
 import Link from "next/link";
+import { slugify } from "../../lib/slugify";
 
 interface Subcategory {
   name: string;
-  businesses: any[]; // Adjust type based on actual business data
+  businesses: any[];
 }
 
 interface SubcategoryPageProps {
@@ -18,12 +19,16 @@ interface SubcategoryPageProps {
 
 export default function SubcategoryPage({ category }: SubcategoryPageProps) {
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
+  const categorySlug = slugify(category.category);
 
   return (
     <div className="p-6 bg-white dark:bg-black text-gray-900 dark:text-white">
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-xl font-bold">
-          <Link href="/category" className="hover:underline text-blue-600 dark:text-blue-400">
+          <Link
+            href="/category"
+            className="hover:underline text-blue-600 dark:text-blue-400"
+          >
             Category
           </Link>
           <span className="mx-2 text-gray-400">›</span>
@@ -31,28 +36,41 @@ export default function SubcategoryPage({ category }: SubcategoryPageProps) {
         </h1>
         <div className="flex gap-2">
           <GridIcon
-            className={`cursor-pointer ${viewMode === "grid" ? "text-blue-500" : "text-gray-500"}`}
+            className={`cursor-pointer ${
+              viewMode === "grid" ? "text-blue-500" : "text-gray-500"
+            }`}
             onClick={() => setViewMode("grid")}
           />
           <ListIcon
-            className={`cursor-pointer ${viewMode === "list" ? "text-blue-500" : "text-gray-500"}`}
+            className={`cursor-pointer ${
+              viewMode === "list" ? "text-blue-500" : "text-gray-500"
+            }`}
             onClick={() => setViewMode("list")}
           />
         </div>
       </div>
-      <h1 className="font-medium mb-4">SubCategories</h1>
+      <h1 className="font-medium mb-4">Subcategories</h1>
       <ul
-        className={`gap-6 ${viewMode === "grid" ? "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3" : "flex flex-col"}`}
+        className={`gap-6 ${
+          viewMode === "grid"
+            ? "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3"
+            : "flex flex-col"
+        }`}
       >
         {category.subcategories.map((sub, idx) => (
           <li
             key={idx}
             className="border border-gray-300 dark:border-gray-700 p-6 rounded-lg bg-gray-50 dark:bg-gray-800 hover:shadow-md transition-all"
           >
-            <div className="font-bold">{sub.name}</div>
-            <div className="mt-3 text-sm text-gray-500 dark:text-gray-400">
-              Browse local {sub.name} businesses
-            </div>
+            <Link
+              href={`/subcategory/${categorySlug}/${slugify(sub.name)}`}
+              className="block"
+            >
+              <div className="font-bold">{sub.name}</div>
+              <div className="mt-3 text-sm text-gray-500 dark:text-gray-400">
+                Browse local {sub.name} businesses
+              </div>
+            </Link>
           </li>
         ))}
       </ul>

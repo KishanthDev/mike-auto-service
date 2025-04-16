@@ -17,10 +17,12 @@ const MAX_VISIBLE_SUBCATS = 4;
 const slugify = (text: string) => {
   return text
     .toLowerCase()
+    .replace(/[^\w\s-]/g, "")
     .replace(/\s+/g, "-")
     .replace(/&/g, "and")
     .replace(/[^a-z0-9-]/g, "")
-    .replace(/-+/g, "-");
+    .replace(/-+/g, "-")
+    .replace(/^-+|-+$/g, "");
 };
 
 const Home = () => {
@@ -41,8 +43,12 @@ const Home = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {categoriesData.map((category: CategoryType, index: number) => {
-            const visibleSubcats = category.subcategories.slice(0, MAX_VISIBLE_SUBCATS);
-            const remainingCount = category.subcategories.length - visibleSubcats.length;
+            const visibleSubcats = category.subcategories.slice(
+              0,
+              MAX_VISIBLE_SUBCATS
+            );
+            const remainingCount =
+              category.subcategories.length - visibleSubcats.length;
 
             return (
               <Link
