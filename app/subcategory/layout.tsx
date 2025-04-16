@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { usePathname } from "next/navigation";
 
-import categoriesData from "../../data/category and subcategory.json";
+import categoriesData from "../../data/detailed_categories_with_subcategories.json";
 
 const slugify = (text: string) => {
     return text

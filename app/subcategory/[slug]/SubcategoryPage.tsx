@@ -4,10 +4,15 @@ import { useState } from "react";
 import { GridIcon, ListIcon } from "lucide-react";
 import Link from "next/link";
 
+interface Subcategory {
+  name: string;
+  businesses: any[]; // Adjust type based on actual business data
+}
+
 interface SubcategoryPageProps {
   category: {
     category: string;
-    subcategories: string[];
+    subcategories: Subcategory[];
   };
 }
 
@@ -26,32 +31,27 @@ export default function SubcategoryPage({ category }: SubcategoryPageProps) {
         </h1>
         <div className="flex gap-2">
           <GridIcon
-            className={`cursor-pointer ${viewMode === "grid" ? "text-blue-500" : "text-gray-500"
-              }`}
+            className={`cursor-pointer ${viewMode === "grid" ? "text-blue-500" : "text-gray-500"}`}
             onClick={() => setViewMode("grid")}
           />
           <ListIcon
-            className={`cursor-pointer ${viewMode === "list" ? "text-blue-500" : "text-gray-500"
-              }`}
+            className={`cursor-pointer ${viewMode === "list" ? "text-blue-500" : "text-gray-500"}`}
             onClick={() => setViewMode("list")}
           />
         </div>
       </div>
       <h1 className="font-medium mb-4">SubCategories</h1>
       <ul
-        className={`gap-6 ${viewMode === "grid"
-          ? "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3"
-          : "flex flex-col"
-          }`}
+        className={`gap-6 ${viewMode === "grid" ? "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3" : "flex flex-col"}`}
       >
         {category.subcategories.map((sub, idx) => (
           <li
             key={idx}
             className="border border-gray-300 dark:border-gray-700 p-6 rounded-lg bg-gray-50 dark:bg-gray-800 hover:shadow-md transition-all"
           >
-            <div className="font-bold">{sub}</div>
+            <div className="font-bold">{sub.name}</div>
             <div className="mt-3 text-sm text-gray-500 dark:text-gray-400">
-              Browse local {sub} businesses
+              Browse local {sub.name} businesses
             </div>
           </li>
         ))}

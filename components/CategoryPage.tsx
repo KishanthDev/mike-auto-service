@@ -1,10 +1,15 @@
 import Link from "next/link";
 
-import categoriesData from "../data/category and subcategory.json";
+import categoriesData from "../data/detailed_categories_with_subcategories.json";
+
+interface Subcategory {
+  name: string;
+  businesses: any[];
+}
 
 interface CategoryType {
   category: string;
-  subcategories: string[];
+  subcategories: Subcategory[];
 }
 
 const MAX_VISIBLE_SUBCATS = 4;
@@ -36,12 +41,8 @@ const Home = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {categoriesData.map((category: CategoryType, index: number) => {
-            const visibleSubcats = category.subcategories.slice(
-              0,
-              MAX_VISIBLE_SUBCATS,
-            );
-            const remainingCount =
-              category.subcategories.length - visibleSubcats.length;
+            const visibleSubcats = category.subcategories.slice(0, MAX_VISIBLE_SUBCATS);
+            const remainingCount = category.subcategories.length - visibleSubcats.length;
 
             return (
               <Link
@@ -56,7 +57,7 @@ const Home = () => {
                       key={subIndex}
                       className="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
                     >
-                      {subcat}
+                      {subcat.name}
                     </span>
                   ))}
                   {remainingCount > 0 && (
