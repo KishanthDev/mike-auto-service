@@ -11,7 +11,10 @@ const customJestConfig = {
   },
   testEnvironment: 'jest-environment-jsdom',
   collectCoverage: true,
-  collectCoverageFrom: ['src/**/*.{js,jsx,ts,tsx}', '!src/**/*.d.ts'],
+  collectCoverageFrom: [
+    'app/**/*.{js,ts,jsx,tsx}',
+    'components/**/*.{js,ts,jsx,tsx}',
+  ],  
   coverageReporters: ['text', 'lcov'],
   testPathIgnorePatterns: ['/node_modules/', '/tests/e2e/'],
   testMatch: ['**/__tests__/**/*.test.[jt]s?(x)', '**/?(*.)test.[jt]s?(x)'],
