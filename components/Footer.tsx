@@ -15,6 +15,7 @@ export default function Footer() {
         {["V", "M", "A"].map((card, idx) => (
           <div
             key={idx}
+            data-testid="payment-icon"
             className="w-8 h-8 md:w-10 md:h-10 bg-white text-black dark:bg-gray-200 dark:text-gray-900 flex items-center justify-center rounded text-xs md:text-sm font-bold shadow-sm"
           >
             {card}
