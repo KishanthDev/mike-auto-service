@@ -1,0 +1,617 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="flex min-h-screen bg-gray-100 dark:bg-black text-gray-800 dark:text-gray-100"
+  >
+    <main
+      class="flex-1 p-6 overflow-y-auto scrollbar-hide"
+    >
+      <div
+        class="mb-6"
+      >
+        <div>
+          Mocked Breadcrumb
+        </div>
+        <div
+          class="max-w-md mx-auto"
+        >
+          <input
+            class="w-full p-2 border rounded-md shadow-md dark:bg-gray-800 dark:border-gray-600"
+            placeholder="Search categories, businesses, or services..."
+            type="text"
+          />
+        </div>
+      </div>
+      <h2
+        class="text-2xl font-semibold mb-6"
+      >
+        Explore Categories
+      </h2>
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
+      >
+        <a
+          href="/subcategory/🚗-automotive"
+        >
+          <h3
+            class="text-lg font-bold mb-2"
+          >
+            🚗 Automotive
+          </h3>
+          <div
+            class="flex flex-wrap gap-2"
+          >
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Car Repair
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Car Sales
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Tires
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Auto Parts
+            </span>
+          </div>
+        </a>
+        <a
+          href="/subcategory/🏥-health-&-medical"
+        >
+          <h3
+            class="text-lg font-bold mb-2"
+          >
+            🏥 Health & Medical
+          </h3>
+          <div
+            class="flex flex-wrap gap-2"
+          >
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Hospitals
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Clinics
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Dentists
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Pharmacies
+            </span>
+            <span
+              class="text-xs bg-blue-100 dark:bg-blue-800 text-blue-700 dark:text-blue-300 px-2 py-1 rounded-full"
+            >
+              +2
+            </span>
+          </div>
+        </a>
+        <a
+          href="/subcategory/📚-education"
+        >
+          <h3
+            class="text-lg font-bold mb-2"
+          >
+            📚 Education
+          </h3>
+          <div
+            class="flex flex-wrap gap-2"
+          >
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Schools (Primary, Secondary)
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Colleges & Universities
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Tuition Services
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Educational Consultants
+            </span>
+          </div>
+        </a>
+        <a
+          href="/subcategory/🍽️-restaurants-&-food"
+        >
+          <h3
+            class="text-lg font-bold mb-2"
+          >
+            🍽️ Restaurants & Food
+          </h3>
+          <div
+            class="flex flex-wrap gap-2"
+          >
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Fast Food
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Fine Dining
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Cafés
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Bakeries
+            </span>
+            <span
+              class="text-xs bg-blue-100 dark:bg-blue-800 text-blue-700 dark:text-blue-300 px-2 py-1 rounded-full"
+            >
+              +1
+            </span>
+          </div>
+        </a>
+        <a
+          href="/subcategory/🛍️-shopping-&-retail"
+        >
+          <h3
+            class="text-lg font-bold mb-2"
+          >
+            🛍️ Shopping & Retail
+          </h3>
+          <div
+            class="flex flex-wrap gap-2"
+          >
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Clothing Stores
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Electronics Stores
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Jewellery Showrooms
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Grocery Stores
+            </span>
+            <span
+              class="text-xs bg-blue-100 dark:bg-blue-800 text-blue-700 dark:text-blue-300 px-2 py-1 rounded-full"
+            >
+              +3
+            </span>
+          </div>
+        </a>
+        <a
+          href="/subcategory/💼-professional-business-services"
+        >
+          <h3
+            class="text-lg font-bold mb-2"
+          >
+            💼 Professional Business Services
+          </h3>
+          <div
+            class="flex flex-wrap gap-2"
+          >
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Chartered Accountants
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Lawyers
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Marketing Agencies
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Business Consultants
+            </span>
+          </div>
+        </a>
+        <a
+          href="/subcategory/🏠-home-services"
+        >
+          <h3
+            class="text-lg font-bold mb-2"
+          >
+            🏠 Home Services
+          </h3>
+          <div
+            class="flex flex-wrap gap-2"
+          >
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Interior Designers
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Carpenters
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Plumbers
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Electricians
+            </span>
+            <span
+              class="text-xs bg-blue-100 dark:bg-blue-800 text-blue-700 dark:text-blue-300 px-2 py-1 rounded-full"
+            >
+              +3
+            </span>
+          </div>
+        </a>
+        <a
+          href="/subcategory/✈️-travel-&-transportation"
+        >
+          <h3
+            class="text-lg font-bold mb-2"
+          >
+            ✈️ Travel & Transportation
+          </h3>
+          <div
+            class="flex flex-wrap gap-2"
+          >
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Airlines
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Hotels
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Car Rentals
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Travel Agencies
+            </span>
+            <span
+              class="text-xs bg-blue-100 dark:bg-blue-800 text-blue-700 dark:text-blue-300 px-2 py-1 rounded-full"
+            >
+              +1
+            </span>
+          </div>
+        </a>
+        <a
+          href="/subcategory/🏢-real-estate"
+        >
+          <h3
+            class="text-lg font-bold mb-2"
+          >
+            🏢 Real Estate
+          </h3>
+          <div
+            class="flex flex-wrap gap-2"
+          >
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Builders and Developers
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Civil Contractors
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Real Estate Agents
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Property Management
+            </span>
+          </div>
+        </a>
+        <a
+          href="/subcategory/💳-financial-services"
+        >
+          <h3
+            class="text-lg font-bold mb-2"
+          >
+            💳 Financial Services
+          </h3>
+          <div
+            class="flex flex-wrap gap-2"
+          >
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Banks
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Loan Agencies
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Insurance Agencies
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Investment Services
+            </span>
+            <span
+              class="text-xs bg-blue-100 dark:bg-blue-800 text-blue-700 dark:text-blue-300 px-2 py-1 rounded-full"
+            >
+              +1
+            </span>
+          </div>
+        </a>
+        <a
+          href="/subcategory/🏛️-government-&-community"
+        >
+          <h3
+            class="text-lg font-bold mb-2"
+          >
+            🏛️ Government & Community
+          </h3>
+          <div
+            class="flex flex-wrap gap-2"
+          >
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Local Government Offices
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Community Centers
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Libraries
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Post Offices
+            </span>
+          </div>
+        </a>
+        <a
+          href="/subcategory/🎬-entertainment-&-media"
+        >
+          <h3
+            class="text-lg font-bold mb-2"
+          >
+            🎬 Entertainment & Media
+          </h3>
+          <div
+            class="flex flex-wrap gap-2"
+          >
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Movie Theaters
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Music Stores
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Event Management
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Convention Halls
+            </span>
+            <span
+              class="text-xs bg-blue-100 dark:bg-blue-800 text-blue-700 dark:text-blue-300 px-2 py-1 rounded-full"
+            >
+              +1
+            </span>
+          </div>
+        </a>
+        <a
+          href="/subcategory/🏋️-sports-&-recreation"
+        >
+          <h3
+            class="text-lg font-bold mb-2"
+          >
+            🏋️ Sports & Recreation
+          </h3>
+          <div
+            class="flex flex-wrap gap-2"
+          >
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Gyms
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Sports Leagues
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Parks
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Recreation Centers
+            </span>
+            <span
+              class="text-xs bg-blue-100 dark:bg-blue-800 text-blue-700 dark:text-blue-300 px-2 py-1 rounded-full"
+            >
+              +1
+            </span>
+          </div>
+        </a>
+        <a
+          href="/subcategory/🐾-pets-&-animals"
+        >
+          <h3
+            class="text-lg font-bold mb-2"
+          >
+            🐾 Pets & Animals
+          </h3>
+          <div
+            class="flex flex-wrap gap-2"
+          >
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Pet Stores
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Veterinarians
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Pet Grooming
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Animal Shelters
+            </span>
+            <span
+              class="text-xs bg-blue-100 dark:bg-blue-800 text-blue-700 dark:text-blue-300 px-2 py-1 rounded-full"
+            >
+              +1
+            </span>
+          </div>
+        </a>
+        <a
+          href="/subcategory/💻-computers-&-mobile"
+        >
+          <h3
+            class="text-lg font-bold mb-2"
+          >
+            💻 Computers & Mobile
+          </h3>
+          <div
+            class="flex flex-wrap gap-2"
+          >
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Internet Service Providers
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Computer Sales and Repair
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Mobile Sales and Repair
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Web Design
+            </span>
+            <span
+              class="text-xs bg-blue-100 dark:bg-blue-800 text-blue-700 dark:text-blue-300 px-2 py-1 rounded-full"
+            >
+              +1
+            </span>
+          </div>
+        </a>
+        <a
+          href="/subcategory/🛡️-safety-&-security"
+        >
+          <h3
+            class="text-lg font-bold mb-2"
+          >
+            🛡️ Safety & Security
+          </h3>
+          <div
+            class="flex flex-wrap gap-2"
+          >
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Private Security Services
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Fire Departments
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Police Stations
+            </span>
+            <span
+              class="text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full"
+            >
+              Safety Equipment Suppliers
+            </span>
+          </div>
+        </a>
+      </div>
+    </main>
+  </div>
+</DocumentFragment>
+`;
