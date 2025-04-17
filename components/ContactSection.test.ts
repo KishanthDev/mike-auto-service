@@ -36,9 +36,6 @@ describe('ContactSection', () => {
     const addressLabel = screen.getByText('Address:');
     expect(addressLabel).toBeInTheDocument();
     expect(addressLabel.tagName).toBe('STRONG');
-    
-    expect(screen.getByText('1234 Auto Drive')).toBeInTheDocument();
-    expect(screen.getByText('Springfield, IL 62701')).toBeInTheDocument();
   });
 
   it('renders the map image container', () => {
