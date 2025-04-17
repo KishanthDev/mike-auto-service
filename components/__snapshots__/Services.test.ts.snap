@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServicesSection Component matches snapshot 1`] = `
+<DocumentFragment>
+  <section>
+    <h2
+      class="text-2xl md:text-3xl font-bold border-b-2 border-red-600 pb-2 text-[#2765c3]"
+    >
+      Our Services
+    </h2>
+    <div
+      class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 md:mt-6"
+      data-testid="services-grid"
+    >
+      <div
+        class="mock-card hover:shadow-lg transition-transform hover:-translate-y-1"
+        data-testid="service-card"
+      >
+        <div
+          class="mock-card-header p-4 md:p-6 flex flex-col justify-between h-full"
+          data-testid="card-header"
+        >
+          <h3
+            class="text-lg mb-3 md:text-xl font-semibold text-[#2765c3]"
+          >
+            Oil Change
+          </h3>
+          <div
+            class="flex-grow"
+          />
+          <p
+            class="text-sm mb-3 md:text-base"
+          >
+            Complete oil and filter replacement
+          </p>
+          <p
+            class="font-bold mt-2 md:mt-3 text-red-600"
+          >
+            $49.99
+          </p>
+        </div>
+      </div>
+      <div
+        class="mock-card hover:shadow-lg transition-transform hover:-translate-y-1"
+        data-testid="service-card"
+      >
+        <div
+          class="mock-card-header p-4 md:p-6 flex flex-col justify-between h-full"
+          data-testid="card-header"
+        >
+          <h3
+            class="text-lg mb-3 md:text-xl font-semibold text-[#2765c3]"
+          >
+            Brake Service
+          </h3>
+          <div
+            class="flex-grow"
+          />
+          <p
+            class="text-sm mb-3 md:text-base"
+          >
+            Brake inspection and pad replacement
+          </p>
+          <p
+            class="font-bold mt-2 md:mt-3 text-red-600"
+          >
+            $129.99
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;
