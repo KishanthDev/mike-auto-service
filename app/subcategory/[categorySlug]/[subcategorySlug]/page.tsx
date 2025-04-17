@@ -8,7 +8,6 @@ import { FiltersBar } from "@/components/filter/FiltersBar";
 import { Share2, Heart, Phone, Globe, MapPin } from "lucide-react";
 import StarRating from "@/components/icons/StarRating";
 
-
 export async function generateStaticParams() {
   const params: { categorySlug: string; subcategorySlug: string }[] = [];
 
@@ -118,7 +117,9 @@ export default async function SubcategoryBusinessesPage({
                       ({business.reviews.length})
                     </span>
                   </div>
-                  <p className="mt-3 text-gray-700 dark:text-gray-300">{business.description}</p>
+                  <p className="mt-3 text-gray-700 dark:text-gray-300">
+                    {business.description}
+                  </p>
 
                   {/* Highlights */}
                   <div className="flex flex-wrap gap-2 mt-4">
@@ -135,8 +136,6 @@ export default async function SubcategoryBusinessesPage({
 
                 {/* Action Buttons */}
                 <div className="flex justify-between items-end mt-6 flex-wrap gap-4">
-
-
                   {/* CTA + Icons with Lucide */}
                   <div className="flex items-center gap-6 text-sm text-gray-600 dark:text-gray-300">
                     <a

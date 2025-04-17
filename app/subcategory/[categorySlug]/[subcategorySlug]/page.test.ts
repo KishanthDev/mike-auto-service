@@ -18,18 +18,20 @@ export function getStaticParams() {
   return params;
 }
 
-export function getCategoryAndSubcategory(categorySlug: string, subcategorySlug: string) {
+export function getCategoryAndSubcategory(
+  categorySlug: string,
+  subcategorySlug: string,
+) {
   const category = categoriesData.find(
-    (cat: Category) => slugify(cat.category) === categorySlug
+    (cat: Category) => slugify(cat.category) === categorySlug,
   );
 
   const subcategory = category?.subcategories.find(
-    (sub: Subcategory) => slugify(sub.name) === subcategorySlug
+    (sub: Subcategory) => slugify(sub.name) === subcategorySlug,
   );
 
   return { category, subcategory };
 }
-
 
 describe("categoryHelpers", () => {
   test("generate correct static params", () => {
@@ -50,7 +52,7 @@ describe("categoryHelpers", () => {
 
     const result = getCategoryAndSubcategory(
       slugify(category.category),
-      slugify(sub.name)
+      slugify(sub.name),
     );
 
     expect(result.category).toBeDefined();

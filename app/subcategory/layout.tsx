@@ -52,10 +52,11 @@ export default function SidebarLayout({
                       toggleCategory(categorySlug);
                     }
                   }}
-                  className={`flex w-full cursor-pointer items-center justify-between rounded-md px-4 py-3 text-base min-h-[44px] ${isActive
+                  className={`flex w-full cursor-pointer items-center justify-between rounded-md px-4 py-3 text-base min-h-[44px] ${
+                    isActive
                       ? "bg-blue-100 text-blue-700 font-medium dark:bg-blue-900 dark:text-blue-300"
                       : "hover:bg-gray-200 dark:hover:bg-gray-700"
-                    }`}
+                  }`}
                 >
                   <Link
                     className="flex-1 min-h-[44px] flex items-center"
@@ -88,10 +89,11 @@ export default function SidebarLayout({
                       return (
                         <li key={subIndex}>
                           <Link
-                            className={`block rounded-md px-3 py-1 text-sm ${isSubActive
+                            className={`block rounded-md px-3 py-1 text-sm ${
+                              isSubActive
                                 ? "bg-blue-50 text-blue-600 dark:bg-blue-950 dark:text-blue-400"
                                 : "hover:bg-gray-100 dark:hover:bg-gray-800"
-                              }`}
+                            }`}
                             href={`/subcategory/${categorySlug}/${subcategorySlug}`}
                           >
                             {subcategory.name}

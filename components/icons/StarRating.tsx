@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { FC } from "react";
 import { Star, StarHalf } from "lucide-react";
@@ -18,7 +18,10 @@ const StarRating: FC<StarRatingProps> = ({ rating }) => {
       {Array(fullStars)
         .fill(0)
         .map((_, i) => (
-          <Star key={`full-${i}`} className="w-5 h-5 fill-yellow-500 text-yellow-500" />
+          <Star
+            key={`full-${i}`}
+            className="w-5 h-5 fill-yellow-500 text-yellow-500"
+          />
         ))}
 
       {/* Half Star */}

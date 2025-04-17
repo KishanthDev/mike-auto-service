@@ -15,9 +15,10 @@ export default function GallerySection({ images }: GallerySectionProps) {
       <h2 className="text-2xl md:text-3xl font-bold border-b-2 border-red-600 pb-2 text-[#1a3c6e] dark:text-white">
         Our Shop Gallery
       </h2>
-      <div 
-      data-testid="gallery-grid"
-      className="grid grid-cols-2 sm:grid-cols-4 gap-3 md:gap-4 mt-4 md:mt-6">
+      <div
+        data-testid="gallery-grid"
+        className="grid grid-cols-2 sm:grid-cols-4 gap-3 md:gap-4 mt-4 md:mt-6"
+      >
         {images.map((src, idx) => (
           <div
             key={idx}
