@@ -14,6 +14,7 @@ const customJestConfig = {
   collectCoverageFrom: [
     "app/**/*.{js,ts,jsx,tsx}",
     "components/**/*.{js,ts,jsx,tsx}",
+    "!**/__tests__/**/*.{js,ts,jsx,tsx}",
   ],
   coverageReporters: ["text", "lcov"],
   testPathIgnorePatterns: ["/node_modules/", "/tests/e2e/"],

@@ -19,8 +19,10 @@
         "name": "next"
       }
     ],
-    "paths": {
-      "@/*": ["./*"]
+    "baseUrl": ".",
+   "paths": {
+      "@app/*": ["app/*"],  // Correct the path mapping
+      "@/*": ["./*"]        // Keep the root alias as it is
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
