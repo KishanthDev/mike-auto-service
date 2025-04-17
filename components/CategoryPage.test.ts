@@ -6,21 +6,28 @@ import categoriesData from "../data/detailed_categories_with_subcategories.json"
 
 // Mock the next/link component
 jest.mock("next/link", () => {
-    const MockedLink = ({ children, href }: { children: React.ReactNode; href: string }) => {
-      return React.createElement("a", { href }, children);
-    };
-    MockedLink.displayName = "MockedLink";
-    return MockedLink;
-  });
-  
+  const MockedLink = ({
+    children,
+    href,
+  }: {
+    children: React.ReactNode;
+    href: string;
+  }) => {
+    return React.createElement("a", { href }, children);
+  };
+  MockedLink.displayName = "MockedLink";
+  return MockedLink;
+});
+
 jest.mock("@/app/lib/slugify", () => ({
   slugify: jest.fn((str) => str.toLowerCase().replace(/\s+/g, "-")),
 }));
 
 jest.mock("./breadcrumb/Breadcrumb", () => {
-    const MockedBreadcrumb = () => React.createElement("div", null, "Mocked Breadcrumb");
-    MockedBreadcrumb.displayName = "MockedBreadcrumb";
-    return MockedBreadcrumb;
+  const MockedBreadcrumb = () =>
+    React.createElement("div", null, "Mocked Breadcrumb");
+  MockedBreadcrumb.displayName = "MockedBreadcrumb";
+  return MockedBreadcrumb;
 });
 
 describe("Home Component", () => {

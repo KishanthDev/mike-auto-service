@@ -5,20 +5,19 @@ import ContactSection from "./ContactSection";
 
 // Mock the next/image component
 jest.mock("next/image", () => {
-    const MockedImage = ({ src, alt, width, height, className }: any) => {
-      return React.createElement("img", {
-        src,
-        alt,
-        width,
-        height,
-        className,
-        "data-testid": "mock-image",
-      });
-    };
-    MockedImage.displayName = "MockedNextImage"; // 👈 Fixes the error
-    return MockedImage;
-  });
-  
+  const MockedImage = ({ src, alt, width, height, className }: any) => {
+    return React.createElement("img", {
+      src,
+      alt,
+      width,
+      height,
+      className,
+      "data-testid": "mock-image",
+    });
+  };
+  MockedImage.displayName = "MockedNextImage"; // 👈 Fixes the error
+  return MockedImage;
+});
 
 describe("ContactSection", () => {
   it("renders the section with correct heading", () => {

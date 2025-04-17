@@ -4,7 +4,10 @@ import React from "react";
 const HeroSection = () => {
   return (
     <section className="h-[400px] md:h-[400px] bg-cover bg-center relative flex flex-col justify-center items-center text-white text-center p-4 dark:text-gray-200">
-      <div className="bg-black bg-opacity-50 absolute inset-0 z-0" />
+      <div
+        data-testid="hero-overlay"
+        className="bg-black bg-opacity-50 absolute inset-0 z-0"
+      />
       <div className="relative z-10 max-w-4xl px-4">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 md:mb-4">
           Mike&apos;s Auto Service
