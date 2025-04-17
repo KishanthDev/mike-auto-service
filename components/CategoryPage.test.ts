@@ -18,7 +18,9 @@ jest.mock("@/app/lib/slugify", () => ({
 }));
 
 jest.mock("./breadcrumb/Breadcrumb", () => {
-  return () => React.createElement("div", null, "Mocked Breadcrumb");
+    const MockedBreadcrumb = () => React.createElement("div", null, "Mocked Breadcrumb");
+    MockedBreadcrumb.displayName = "MockedBreadcrumb";
+    return MockedBreadcrumb;
 });
 
 describe("Home Component", () => {
