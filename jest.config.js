@@ -18,7 +18,10 @@ const customJestConfig = {
   ],
   coverageReporters: ["text", "lcov"],
   testPathIgnorePatterns: ["/node_modules/", "/tests/e2e/"],
-  testMatch: ["**/__tests__/**/*.test.[jt]s?(x)", "**/?(*.)test.[jt]s?(x)"],
+  testMatch: [
+    "**/app/**/*.(test|spec).ts?(x)",  // Matches all test files under `app`
+    "**/components/**/*.(test|spec).ts?(x)",  // Matches all test files under `components`
+  ],  
 };
 
 module.exports = createJestConfig(customJestConfig);
