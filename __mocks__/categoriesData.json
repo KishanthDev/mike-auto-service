@@ -1,0 +1,41 @@
+[
+    {
+      "category": "Restaurants",
+      "subcategories": [
+        {
+          "name": "Italian",
+          "businesses": [
+            {
+              "id": 1,
+              "businessName": "Pasta Palace",
+              "gallery": ["https://example.com/image.jpg"],
+              "ratings": 4.5,
+              "reviews": [{}, {}],
+              "description": "Authentic Italian cuisine",
+              "highlights": ["Vegan Options", "Outdoor Seating"],
+              "contact": {
+                "phone": "123-456-7890",
+                "website": "https://pastapalace.com"
+              },
+              "cta": {
+                "getDirections": "https://maps.google.com/pastapalace"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Mexican",
+          "businesses": []
+        }
+      ]
+    },
+    {
+      "category": "Cafes",
+      "subcategories": [
+        {
+          "name": "Coffee Shops",
+          "businesses": []
+        }
+      ]
+    }
+  ]

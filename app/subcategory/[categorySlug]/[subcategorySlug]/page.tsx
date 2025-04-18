@@ -27,9 +27,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ categorySlug: string; subcategorySlug: string }>;
+  params: { categorySlug: string; subcategorySlug: string };
 }): Promise<Metadata> {
-  const { categorySlug, subcategorySlug } = await params;
+  const { categorySlug, subcategorySlug } = params; // No need to await
   const category = categoriesData.find(
     (cat: Category) => slugify(cat.category) === categorySlug,
   );
@@ -47,9 +47,9 @@ export async function generateMetadata({
 export default async function SubcategoryBusinessesPage({
   params,
 }: {
-  params: Promise<{ categorySlug: string; subcategorySlug: string }>;
+  params: { categorySlug: string; subcategorySlug: string };
 }) {
-  const { categorySlug, subcategorySlug } = await params;
+  const { categorySlug, subcategorySlug } = params;
 
   const category = categoriesData.find(
     (cat: Category) => slugify(cat.category) === categorySlug,
