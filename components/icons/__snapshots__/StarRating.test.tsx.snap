@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StarRating Component matches snapshot for various ratings 1`] = `
+<DocumentFragment>
+  <div
+    class="flex items-center gap-1 mt-1"
+  >
+    <svg
+      class="w-5 h-5 text-yellow-500"
+      data-testid="star"
+    />
+    <svg
+      class="w-5 h-5 text-yellow-500"
+      data-testid="star"
+    />
+    <svg
+      class="w-5 h-5 text-yellow-500"
+      data-testid="star"
+    />
+    <svg
+      class="w-5 h-5 text-yellow-500"
+      data-testid="star"
+    />
+    <svg
+      class="w-5 h-5 text-yellow-500"
+      data-testid="star"
+    />
+    <span
+      class="ml-2 text-sm font-medium text-gray-800 dark:text-gray-300"
+    >
+      0.0
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`StarRating Component matches snapshot for various ratings 2`] = `
+<DocumentFragment>
+  <div
+    class="flex items-center gap-1 mt-1"
+  >
+    <svg
+      class="w-5 h-5 fill-yellow-500 text-yellow-500"
+      data-testid="star"
+    />
+    <svg
+      class="w-5 h-5 fill-yellow-500 text-yellow-500"
+      data-testid="star"
+    />
+    <svg
+      class="w-5 h-5 fill-yellow-500 text-yellow-500"
+      data-testid="star"
+    />
+    <svg
+      class="w-5 h-5 fill-yellow-500 text-yellow-500"
+      data-testid="star-half"
+    />
+    <svg
+      class="w-5 h-5 text-yellow-500"
+      data-testid="star"
+    />
+    <span
+      class="ml-2 text-sm font-medium text-gray-800 dark:text-gray-300"
+    >
+      3.5
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`StarRating Component matches snapshot for various ratings 3`] = `
+<DocumentFragment>
+  <div
+    class="flex items-center gap-1 mt-1"
+  >
+    <svg
+      class="w-5 h-5 fill-yellow-500 text-yellow-500"
+      data-testid="star"
+    />
+    <svg
+      class="w-5 h-5 fill-yellow-500 text-yellow-500"
+      data-testid="star"
+    />
+    <svg
+      class="w-5 h-5 fill-yellow-500 text-yellow-500"
+      data-testid="star"
+    />
+    <svg
+      class="w-5 h-5 fill-yellow-500 text-yellow-500"
+      data-testid="star"
+    />
+    <svg
+      class="w-5 h-5 fill-yellow-500 text-yellow-500"
+      data-testid="star"
+    />
+    <span
+      class="ml-2 text-sm font-medium text-gray-800 dark:text-gray-300"
+    >
+      5.0
+    </span>
+  </div>
+</DocumentFragment>
+`;

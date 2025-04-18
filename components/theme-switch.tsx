@@ -46,6 +46,7 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
           className,
           classNames?.base,
         ),
+        "data-testid": "theme-switch-root",
       })}
     >
       <VisuallyHidden>
@@ -53,6 +54,7 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
       </VisuallyHidden>
       <div
         {...getWrapperProps()}
+        data-testid="theme-switch-wrapper"
         className={slots.wrapper({
           class: clsx(
             [
