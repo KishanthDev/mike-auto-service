@@ -158,6 +158,7 @@ export const HeartFilledIcon = ({
   </svg>
 );
 
+
 export const SearchIcon = (props: IconSvgProps) => (
   <svg
     aria-hidden="true"
